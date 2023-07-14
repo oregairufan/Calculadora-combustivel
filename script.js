@@ -6,17 +6,17 @@ function calcular() {
 
     if(calcular() == 0) {
 
-        document.querySelector('#status').src = '/Conteudo7/img/neutro.png'
+        document.querySelector('#status').src = 'neutro.png'
     }
     else if(etanol <= (0.72 * gasolina)) {
 
-        document.querySelector('#status').src = '/Conteudo7/img/alcool.png';
+        document.querySelector('#status').src = 'alcool.png';
     }else {
         
-        document.querySelector('#status').src = '/Conteudo7/img/gasolina.png';
+        document.querySelector('#status').src = 'gasolina.png';
     }
 }
 
 function limpar() {
-    document.querySelector('#status').src = '/Conteudo7/img/neutro.png'
+    document.querySelector('#status').src = 'neutro.png'
 }
